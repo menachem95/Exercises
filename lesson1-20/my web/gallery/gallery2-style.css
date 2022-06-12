@@ -1,0 +1,57 @@
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+button {
+    box-sizing: border-box;
+    font-size: 70px;
+    background: none;
+    border: none;
+    color: rgb(11, 80, 184);
+    position: relative;
+}
+
+.l_btn {
+    right: 600px;
+}
+
+.l_btn:hover {
+    font-size: 80px;
+}
+
+.r_btn {
+    left: 600px;
+}
+
+.r_btn:hover {
+    font-size: 80px;
+}
+
+.main-img {
+    text-align: center;
+}
+
+.imgs {
+    border: solid gray 10px;
+}
+
+.imgs div {
+    display: inline;
+    padding: 10px;
+}
+
+.imgs img {
+    max-width: 200px;
+}
+
+
+
+
+
+
+

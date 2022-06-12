@@ -1,0 +1,86 @@
+body, html { margin: 0; padding: 0;}
+
+header {
+    background:  url(https://pngimage.net/wp-content/uploads/2018/06/header-background-png-6.png);
+    padding: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: white;
+}
+
+.content {
+    padding: 10px;
+}
+
+h3 {
+    font-style: italic;
+    font-weight: normal;
+    color: #e11422;
+    font-size: 140%;
+}
+
+ul {
+    column-count: 2;
+    max-width: 30vw;
+}
+
+li {
+    max-width: 10px;
+}
+
+#table_bg {
+    background-color: azure;
+    padding: 20px;
+}
+
+#table_head {
+    color: rgba(105, 42, 223, 0.57);
+    font-style: inherit;
+    font-size: 1cm;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+    background-color: #ffebcd;
+}
+
+tr:first-child {
+    background-color: rgb(79, 113, 17);
+    color: white;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+th {
+    text-align: left;
+}
+
+td:nth-child(3) {
+    text-align: center;
+}
+
+th:nth-child(3) {
+    text-align: center;
+}
+
+tr:nth-child(2n) {
+    background: #c6954d;
+}
+
+#js_answer {
+    color: #4c0ded;
+    font-size: 120%;
+}
+
+
+
+
+
+
+
+

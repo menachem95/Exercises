@@ -1,0 +1,22 @@
+
+body {
+    background-image: url(https://static.tildacdn.com/tild3766-6630-4539-b833-646437363364/Simples-waves.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    text-align: center;
+}
+
+ol li {
+    max-width: 200px;
+}
+
+#table_bg {
+    display: inline-block;
+}
+
+#list {
+    display: inline-block;
+}

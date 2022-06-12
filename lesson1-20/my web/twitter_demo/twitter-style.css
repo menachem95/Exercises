@@ -1,0 +1,11 @@
+
+body {
+    background-color: rgba(122, 122, 144, 0.716);
+}
+
+section {
+    background-color: white;
+    max-width: 500px;
+    min-height: 600px;
+    border-radius: 23px 23px 23px 23px;
+}
