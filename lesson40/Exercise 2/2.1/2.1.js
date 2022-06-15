@@ -1,6 +1,4 @@
- const str = prompt()
-
- console.log(str)
+ const str = "abcde"
 
  for (let element of document.querySelector("div").childNodes) {
     element.value = str

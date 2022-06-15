@@ -20,4 +20,3 @@ for (let elment of document.querySelector("tbody").childNodes) {
     }
 }
 
-
