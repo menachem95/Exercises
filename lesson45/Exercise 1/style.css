@@ -1,0 +1,36 @@
+
+.image-slider {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+}
+
+.images {
+    width: 99999px;
+    position: absolute;
+    left: 0;
+    transition: left 0.5s;
+    display: flex;
+}
+
+img {
+    width: 400px;
+}
+
+.circles button {
+    color: blanchedalmond;
+    height: 20px;
+    width: 20px;
+    border-radius: 70%;
+    border: solid rgb(65, 163, 255);
+}
+
+.circles {
+    width: 400px;
+    text-align: center;
+}
+
+.fullbtn {
+    background-color: rgb(65, 163, 255);
+}
