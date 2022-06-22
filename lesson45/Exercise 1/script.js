@@ -17,12 +17,17 @@ for (let index = 0; index < circlesBtns.length; index++) {
 }
 
 
+var timer = setTimeout(nextImage, 3000)
+
+
 function goToImage(index) {
+    clearTimeout(timer)
     circlesBtns[currentImageIndex].classList.remove("fullbtn");
     circlesBtns[index].classList.add("fullbtn");
     currentImageIndex = index;
     const left = (currentImageIndex * -1 * imageWIDTH) + "px";
     consainer.style.left = left;
+    timer = setTimeout(nextImage, 3000)
 }
 
 
@@ -36,9 +41,6 @@ function nextImage() {
     const left = (currentImageIndex * -1 * imageWIDTH) + "px";
     consainer.style.left = left;
     circlesBtns[currentImageIndex].classList.add("fullbtn")
-    setTimeout(nextImage, 3000)
-}
-
-setTimeout(nextImage, 3000)
+    timer = setTimeout(nextImage, 3000)}
 
 
