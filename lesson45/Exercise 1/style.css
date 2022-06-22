@@ -19,6 +19,7 @@ img {
 }
 
 .circles button {
+    cursor: pointer;
     color: blanchedalmond;
     height: 20px;
     width: 20px;
