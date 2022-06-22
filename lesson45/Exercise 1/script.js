@@ -11,6 +11,21 @@ const lastImageOffset = -400 * (imageCount -1);
 let currentImageIndex = 0;
 
 
+for (let index = 0; index < circlesBtns.length; index++) {
+    const btn = circlesBtns[index];
+    btn.addEventListener("click", ()=> goToImage(index))
+}
+
+
+function goToImage(index) {
+    circlesBtns[currentImageIndex].classList.remove("fullbtn");
+    circlesBtns[index].classList.add("fullbtn");
+    currentImageIndex = index;
+    const left = (currentImageIndex * -1 * imageWIDTH) + "px";
+    consainer.style.left = left;
+}
+
+
 function nextImage() {
     circlesBtns[currentImageIndex].classList.remove("fullbtn")
     currentImageIndex++;
@@ -19,11 +34,11 @@ function nextImage() {
         currentImageIndex = 0;
     }
     const left = (currentImageIndex * -1 * imageWIDTH) + "px";
-    consainer.style.left = left
+    consainer.style.left = left;
     circlesBtns[currentImageIndex].classList.add("fullbtn")
     setTimeout(nextImage, 3000)
 }
 
-//setTimeout(nextImage, 3000)
+setTimeout(nextImage, 3000)
 
 
