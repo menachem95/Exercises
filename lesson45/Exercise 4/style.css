@@ -14,8 +14,21 @@ div {
     margin: 5px;
     background-color: gray;
     border: none;
+    width: 100px; 
+    height: 100px;
 }
 
 .squares .red-square {
     background-color: red;
+}
+
+button {
+    position: absolute;
+}
+
+.squares {
+    position: relative; 
+    height: 90vh; 
+    padding: 10; 
+    margin: 10;
 }

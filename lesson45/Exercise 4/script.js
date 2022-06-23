@@ -14,7 +14,11 @@ squaresClass[num].classList.add("red-square")
 
 
 function changeRedPostion(ev) {
-    clearInterval(twoSeconds)
+    if (ev.srcElement.classList[0] === "squares") {
+        return undefined
+    }
+    clearInterval(twoSeconds);
+   // Velocity(ev., 'jello', { duration: 500 });
     if (ev.srcElement.classList[0] === "red-square") {
         score += 5;
     } else {
@@ -36,5 +40,17 @@ function passTime() {
     your_score.textContent = score
 }
 
+const box = document.querySelectorAll('button');
+function runaway() {
+    for (let i = 0; i < box.length; i++) {
+        console.log(box[i])
+        const width = document.body.clientWidth - 100;
+        const x = Math.random() * width;
+        const height = document.body.clientHeight - 100;
+        const y = Math.random() * height;
+        Velocity(box[i], { left: x, top: y }, { duration: 3000 });
+    }
+}
 
-
+runaway();
+setInterval(runaway, 10)
