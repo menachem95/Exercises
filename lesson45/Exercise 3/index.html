@@ -5,32 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        #showPower {
-            display: block;
-            height: 16px;
-        }
-
-        #gui {
-            display: block;
-            box-sizing: border-box;
-            border: 1px black solid;
-            height: 30px;
-            width: 300px;
-        }
-
-        .weak {
-            background-image: linear-gradient(to right,rgb(251, 4, 4) 0.1%, white);
-        }
-
-        .medium {
-            background-image: linear-gradient(to right,rgb(11, 168, 11) 0.1%, white);
-        }
-
-        .strong {
-            background-color: rgb(11, 168, 11);
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="">
@@ -41,8 +16,11 @@
             <input type="text" id="password">  
         </div>
         <div>
-            <span id="showPower"></span>
-            <div id="gui"></div>
+            <span id="showPower">none</span>
+            <div id="main">
+                <div id="gui"></div>
+            </div>
+            
         </div>
         
 

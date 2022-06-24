@@ -1,0 +1,21 @@
+
+#showPower {
+    display: block;
+    height: 16px;
+}
+
+#gui {
+    display: block;
+    box-sizing: border-box;
+    border: none;
+    height: 20px;
+}
+
+#main {
+    display: block;
+    box-sizing: border-box;
+    border: 1px black solid; 
+    height: 22px;
+    width: 300px;
+}
+
