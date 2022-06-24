@@ -18,12 +18,19 @@ function changeRedPostion(ev) {
         return undefined
     }
     clearInterval(twoSeconds);
-   // Velocity(ev., 'jello', { duration: 500 });
-    if (ev.srcElement.classList[1] === "red-square") {
+    
+    let isRed = false;
+    for (let i = 0; i < ev.srcElement.classList.length; i++) {
+        if (ev.srcElement.classList[i] === "red-square") {
+            isRed = true;
+        }
+    }
+    if (isRed) {
         score += 5;
     } else {
         score -= 2;
     }
+
     var temp_num = Math.floor(Math.random() * 8);
     while (temp_num === num) {
         temp_num = Math.floor(Math.random() * 8);
