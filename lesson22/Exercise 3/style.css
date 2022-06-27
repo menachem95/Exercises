@@ -1,0 +1,16 @@
+
+div {
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    div label {
+        display: block;
+    }
+}
+
+@media (min-width: 800px) {
+    .name, .email {
+        display: inline;
+    }
+}
