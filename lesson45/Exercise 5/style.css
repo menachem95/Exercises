@@ -1,0 +1,60 @@
+
+body {
+    text-align: center;
+    background-color: bisque;
+}
+
+header {
+    height: 200px;
+}
+
+.you_won {
+    color: bisque;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.info {
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+
+.btns {
+    margin: auto;
+    margin-top: 50px;
+    max-width:  1350px;
+}
+
+button {
+    cursor: pointer;
+    height: 180px;
+    width: 150px;
+    margin: 5px;
+    box-sizing: border-box;
+    background-image: url("cards-back.jpg");
+    border-radius: 5%;
+    border: none;
+    color: rgba(245, 245, 220, 0);
+    font-size: 55px;
+}
+
+.card_open {
+    background-image: none;
+    background-color: rgb(205, 253, 245);
+    color: red;
+    font-size: 55px;
+}
+
+.card_found {
+    background-image: none;
+    background-color: rgb(205, 253, 245);
+    color: green;
+    font-size: 55px;
+}
+
+button:hover {
+    border: 2px solid rgb(198, 41, 27);
+}
+
+
