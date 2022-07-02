@@ -6,12 +6,11 @@ img {
 .image-slider {
     width: 400px;
     height: 250px;
-    position: absolute;
     overflow: hidden;
 }
 
 .images {
     width: 1200px;
     position: relative;
-    left: 0px;
+    left: -400px;
 }
