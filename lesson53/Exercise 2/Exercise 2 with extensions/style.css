@@ -1,0 +1,47 @@
+
+button {
+    display: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding-left: 3px;
+    background-color: white;
+}
+
+input {
+    width: 200px;
+    display: inline;
+}
+
+.ok {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    border: 1px black solid;
+
+    text-align: center;
+}
+
+.ok:hover {
+    cursor: pointer;
+    background-color: blanchedalmond;
+}
+
+.find {
+    display: block;
+}
+
+.find:hover {
+    background-color: rgba(128, 128, 128, 0.219);
+}
+
+.list_of_toppings {
+    width: 207px;
+    border: 1px solid black;
+    display: none;
+}
+
+.displayOn {
+    display: block;
+}
+

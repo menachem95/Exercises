@@ -1,0 +1,26 @@
+
+span {
+    display: none;
+}
+
+.find {
+    display: block;
+}
+
+.find:hover {
+    background-color: rgba(128, 128, 128, 0.219);
+}
+
+.list_of_toppings {
+    width: 207px;
+    border: 1px solid black;
+    display: none;
+}
+
+.displayOn {
+    display: block;
+}
+
+input {
+    width: 200px;
+}
